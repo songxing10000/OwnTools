@@ -116,8 +116,8 @@ extension ViewController: NSTableViewDelegate, NSTableViewDataSource {
     func numberOfRows(in tableView: NSTableView) -> Int {
         return dataArray.count
     }
-
     func tableView(_ tableView: NSTableView, objectValueFor tableColumn: NSTableColumn?, row: Int) -> Any? {
+    
         return dataArray[row]
     }
     

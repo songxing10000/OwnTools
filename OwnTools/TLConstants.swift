@@ -7,7 +7,7 @@
 
 import Foundation
 
-let TLGenerateLazyMethodIdentifier = "com.talon.OwnTools.OwnToolsExtension.GenerateLazyMethod"
+let TLGenerateLazyMethodIdentifier = "com.talon1.OwnTools.OwnToolsExtension.lazyProperty"
 
 
 let TLGroupName = "group.talon.OwnTools"

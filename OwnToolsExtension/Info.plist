@@ -12,9 +12,9 @@
 					<key>XCSourceEditorCommandClassName</key>
 					<string>$(PRODUCT_MODULE_NAME).SourceEditorCommand</string>
 					<key>XCSourceEditorCommandIdentifier</key>
-					<string>$(PRODUCT_BUNDLE_IDENTIFIER).GenerateLazyMethod</string>
+					<string>$(PRODUCT_BUNDLE_IDENTIFIER).lazyProperty</string>
 					<key>XCSourceEditorCommandName</key>
-					<string>Generate Lazy Method</string>
+					<string>生成lazy属性</string>
 				</dict>
 				<dict>
 					<key>XCSourceEditorCommandClassName</key>

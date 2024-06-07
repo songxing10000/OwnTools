@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "8E0A4127-5501-43DF-9CE7-F2EAE9A2A93A"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "B4383606-7915-435C-A8D1-AE5C08A5D046"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "OwnToolsExtension/TLGenerateLazyCode.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "22"
+            endingLineNumber = "22"
+            landmarkName = "addLazyCode(textRange:invocation:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "B4383606-7915-435C-A8D1-AE5C08A5D046 - aec6d0b4c505e208"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "OwnToolsExtension.TLGenerateLazyCode.addLazyCode(textRange: __C.XCSourceTextRange, invocation: __C.XCSourceEditorCommandInvocation) -&gt; ()"
+                  moduleName = "OwnToolsExtension"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/edy/Downloads/OwnTools-main/OwnToolsExtension/TLGenerateLazyCode.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "22"
+                  endingLineNumber = "22"
+                  offsetFromSymbolStart = "252">
+               </Location>
+               <Location
+                  uuid = "B4383606-7915-435C-A8D1-AE5C08A5D046 - aec6d0b4c505e208"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "OwnToolsExtension.TLGenerateLazyCode.addLazyCode(textRange: __C.XCSourceTextRange, invocation: __C.XCSourceEditorCommandInvocation) -&gt; ()"
+                  moduleName = "OwnToolsExtension"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/edy/Downloads/OwnTools-main/OwnToolsExtension/TLGenerateLazyCode.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "22"
+                  endingLineNumber = "22"
+                  offsetFromSymbolStart = "136">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "916A3DA3-9C39-4348-BAAE-B02B4A8E214C"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "OwnToolsExtension/TLGenerateLazyCode.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "24"
+            endingLineNumber = "24"
+            landmarkName = "addLazyCode(textRange:invocation:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "916A3DA3-9C39-4348-BAAE-B02B4A8E214C - aec6d0b4c505e24a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "OwnToolsExtension.TLGenerateLazyCode.addLazyCode(textRange: __C.XCSourceTextRange, invocation: __C.XCSourceEditorCommandInvocation) -&gt; ()"
+                  moduleName = "OwnToolsExtension"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/edy/Downloads/OwnTools-main/OwnToolsExtension/TLGenerateLazyCode.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "24"
+                  endingLineNumber = "24"
+                  offsetFromSymbolStart = "296">
+               </Location>
+               <Location
+                  uuid = "916A3DA3-9C39-4348-BAAE-B02B4A8E214C - aec6d0b4c505e24a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "OwnToolsExtension.TLGenerateLazyCode.addLazyCode(textRange: __C.XCSourceTextRange, invocation: __C.XCSourceEditorCommandInvocation) -&gt; ()"
+                  moduleName = "OwnToolsExtension"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/edy/Downloads/OwnTools-main/OwnToolsExtension/TLGenerateLazyCode.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "24"
+                  endingLineNumber = "24"
+                  offsetFromSymbolStart = "180">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "BB8B5850-4D67-48D4-8882-0A08174F5BC4"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "OwnToolsExtension/TLGenerateLazyCode.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "32"
+            endingLineNumber = "32"
+            landmarkName = "addLazyCode(textRange:invocation:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "BB8B5850-4D67-48D4-8882-0A08174F5BC4 - aec6d0b4c505e342"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "OwnToolsExtension.TLGenerateLazyCode.addLazyCode(textRange: __C.XCSourceTextRange, invocation: __C.XCSourceEditorCommandInvocation) -&gt; ()"
+                  moduleName = "OwnToolsExtension"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/edy/Downloads/OwnTools-main/OwnToolsExtension/TLGenerateLazyCode.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "32"
+                  endingLineNumber = "32"
+                  offsetFromSymbolStart = "1792">
+               </Location>
+               <Location
+                  uuid = "BB8B5850-4D67-48D4-8882-0A08174F5BC4 - aec6d0b4c505e45b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "OwnToolsExtension.TLGenerateLazyCode.addLazyCode(textRange: __C.XCSourceTextRange, invocation: __C.XCSourceEditorCommandInvocation) -&gt; ()"
+                  moduleName = "OwnToolsExtension"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/edy/Downloads/OwnTools-main/OwnToolsExtension/TLGenerateLazyCode.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "39"
+                  endingLineNumber = "39"
+                  offsetFromSymbolStart = "1184">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "3EB47ADA-5F20-4E91-8C3C-4B0A1491183C"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "OwnToolsExtension/TLGenerateLazyCode.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "26"
+            endingLineNumber = "26"
+            landmarkName = "addLazyCode(textRange:invocation:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
