@@ -1,3 +1,56 @@
+
+
+再更新：
+后面发现不如用自动操作里的快速操作写脚本更简单，只需要选中代码右键，点菜单就搞定了
+
+```applescript
+on run {input, parameters}
+	-- 获取选中的字符串
+	set selectedText to input as string
+	
+	-- 定义匹配的正则表达式模式
+	set regexPattern to "\\b(var|let)\\s+(\\w+)\\b"
+	-- 在选中文本中进行正则匹配
+	set matches to do shell script "echo " & quoted form of selectedText & " | grep -oE '" & regexPattern & "'"
+	
+	-- 提取匹配到的变量名
+	set variableNames to {}
+	set AppleScript's text item delimiters to {return}
+	repeat with match in paragraphs of matches
+		set variableName to last word of match
+		set end of variableNames to variableName
+	end repeat
+	set AppleScript's text item delimiters to ""
+	if variableName is not "" then
+		-- 自定义的字符串
+		
+		set prefixString to "private lazy var " & variableName & " = {" & return
+		set suffixString to return & "return " & variableName & return & "}()"
+		
+		-- 在选中文本的前后插入自定义字符串
+		set processedText to prefixString & selectedText & suffixString
+		
+		-- 将处理后的文本复制到剪贴板
+		set the clipboard to processedText
+		-- 在 Xcode 中触发粘贴操作
+		tell application "Xcode"
+			activate
+			tell application "System Events" to keystroke "v" using {command down}
+		end tell
+		
+		return processedText
+		
+	end if
+	
+end run
+
+```
+
+更新：
+修改为在swift中选中变量生成lazy属性
+
+---
+
 # Xcode Source Editor Extension
 用了一段时间`Tools for Xcode`，感觉生成代码功能挺好用的，很好奇它是如何实现的。搜索一番，最后找到了`Source Editor Extension`。
 <div align=center><img width="600" src="https://github.com/Talon2333/OwnTools/blob/main/Images/Tools%20for%20Xcode.png" alt="Tools for Xcode"/></div>
